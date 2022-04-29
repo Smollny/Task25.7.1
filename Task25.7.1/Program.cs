@@ -17,11 +17,11 @@ namespace Task25._7._1
             //BookRepository.Add(new Book { Title = "Кавказский пленник", YearOfIssue = 1821, Genre = "поэма", Author = "А. С. Пушкин" });
             //BookRepository.Add(new Book { Title = "Арап Петра Великого", YearOfIssue = 1827, Genre = "проза", Author = "А. С. Пушкин" });
             //BookRepository.Add(new Book { Title = "Сказка о рыбаке и рыбке", YearOfIssue = 1833, Genre = "сказка", Author = "А. С. Пушкин" });
-            
-            //foreach (var user in UserRepository.GetAll())
-            //{
-            //    Console.WriteLine($"{user.Id}: {user.Name}, {user.Email}");
-            //}
+            //BookRepository.Add(new Book { Title = "Герой нашего времени", YearOfIssue = 1840, Genre = "роман", Author = "М. Ю. Лермонтов" });
+            //BookRepository.Add(new Book { Title = "Княгиня Лиговская", YearOfIssue = 1882, Genre = "роман", Author = "М. Ю. Лермонтов" });
+            //BookRepository.Add(new Book { Title = "Маскарад", YearOfIssue = 1835, Genre = "пьеса", Author = "М. Ю. Лермонтов" });
+            //BookRepository.Add(new Book { Title = "Мцыри", YearOfIssue = 1840, Genre = "поэма", Author = "М. Ю. Лермонтов" });
+            //BookRepository.Add(new Book { Title = "Парус", YearOfIssue = 1832, Genre = "поэзия", Author = "М. Ю. Лермонтов" });
 
             foreach (var book in GetListOfBooksOfACertainGenreAndPublishedBetweenCertainYears("поэма", 1810, 1821))
             {
